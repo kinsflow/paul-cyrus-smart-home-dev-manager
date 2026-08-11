@@ -1,7 +1,4 @@
-# Smart Home Device Manager for Bright Minds Academy
-# Stores devices in a list of dictionaries (no database needed)
 
-# each device looks like: {"name": "Smart Light A1", "room": "Room 3", "status": "online"}
 devices = []
 
 VALID_STATUSES = ["online", "offline", "maintenance"]
